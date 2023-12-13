@@ -6,17 +6,35 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 export class NewsItem extends Component {
+  handleOnClick =(url) =>{
+    let newLink = url
+    window.open(newLink , '_blank')
+  }
   render() {
     let {title, description, imageUrl, newsUrl} = this.props;
     return (
-      <div>
-        <Card sx={{ maxWidth: 345 }}>
+      <div style={{ backgroundColor: "#958AB6", color: "#FCE8FF" }}>
+        <Card
+          sx={{
+            maxWidth: 345,
+            transition: "backgroundColor 0.3s ease-in-out",
+            transition: "transform 0.3s ease-in-out",
+            overflow: "hidden",
+            cursor: "pointer",
+            "&:hover": {
+              backgroundColor: "#00000015",
+              transform: "scale(1.005)",
+            },
+          }}
+          color="primary"
+          onClick={() => this.handleOnClick(newsUrl)}
+        >
           <CardMedia
             sx={{ height: 140 }}
             image={imageUrl}
             title={title}
-            component="img" 
-            height="140" 
+            component="img"
+            height="140"
             alt={title}
           />
           <CardContent>
@@ -29,7 +47,13 @@ export class NewsItem extends Component {
           </CardContent>
           <CardActions>
             {/* <Button size="small">Share</Button> */}
-            <Button size="small" href={newsUrl} target='_blank'>
+            <Button
+              size="small"
+              variant="outlined"
+              href={newsUrl}
+              target="_blank"
+              color="primary"
+            >
               Learn More
             </Button>
           </CardActions>
