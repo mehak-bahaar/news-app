@@ -1,25 +1,34 @@
 import React, { Component } from 'react'
 import NewsItem from '../NewsItem/NewsItem'
 import { Button, Grid } from '@mui/material'
+import Spinner from '../Spinner/Spinner';
+import PropTypes from 'prop-types'
 
 
 export class News extends Component {
-  article = [
-  ];
+  static PropTypes = {
+    pageSize: PropTypes.number,
+    catagory: PropTypes.string,
+  };
+  static defaultProps = {
+    pageSize: 21,
+    catagory: "general",
+  };
+  article = [];
 
   constructor() {
     super();
     this.state = {
       article: this.article,
       loading: false,
-      page:1
+      page: 1,
     };
   }
-  async componentDidMount() {
+  fetchNewsApi = async (psize, pstate) => {
     try {
-      const url =
-        "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=7ee4747673844949a3f32589fed1cbdf&page=1&pageSize=21";
+      const url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.catagory}&apiKey=7ee4747673844949a3f32589fed1cbdf&page=${psize}&pageSize=${this.props.pageSize}`;
       const response = await fetch(url);
+      this.setState({ loading: true });
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
@@ -30,108 +39,80 @@ export class News extends Component {
           article: parsedData.articles,
           loading: false,
           totalArticles: parsedData.totalResults,
+          page: pstate,
         });
+        window.scrollTo({ top: 0, behavior: "smooth" });
       } else {
         console.error("Error fetching data:", parsedData);
       }
     } catch (error) {
       console.error("Error fetching data:", error);
       // Handle error, set state accordingly
-      this.setState({ loading: false, error: error.message,  });
+      this.setState({ loading: false, error: error.message });
     }
+  };
+  async componentDidMount() {
+    this.fetchNewsApi(1, this.state.page);
   }
-  handlePreButton =async ()=>{
-    console.log("previous")
-        try {
-      const url =
-        `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=7ee4747673844949a3f32589fed1cbdf&page=${this.state.page - 1}&pageSize=21`;
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      const parsedData = await response.json();
-      console.log(parsedData);
-      if (parsedData.articles) {
-        this.setState({
-          article: parsedData.articles,
-          loading: false,
-          page: this.state.page - 1,
-        });
-          window.scrollTo({ top: 0, behavior: "smooth" });
-      } else {
-        console.error("Error fetching data:", parsedData);
-      }
-    } catch (error) {
-      console.error("Error fetching data:", error);
-      // Handle error, set state accordingly
-      this.setState({ loading: false, error: error.message, });
-    }
-  }
-  
-  handleNextButton = async ()=>{
+  handlePreButton = async () => {
+    console.log("previous");
+    let prePage = this.state.page - 1;
+    await this.fetchNewsApi(prePage, prePage);
+  };
+
+  handleNextButton = async () => {
     if (this.state.page > Math.ceil(this.state.totalArticles / 21)) {
     } else {
       console.log("next");
-      try {
-        const url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=7ee4747673844949a3f32589fed1cbdf&page=${
-          this.state.page + 1
-        }&pageSize=21`;
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        const parsedData = await response.json();
-        console.log(parsedData);
-        if (parsedData.articles) {
-          this.setState({
-            article: parsedData.articles,
-            loading: false,
-            page: this.state.page + 1,
-          });
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        } else {
-          console.error("Error fetching data:", parsedData);
-        }
-      } catch (error) {
-        console.error("Error fetching data:", error);
-        // Handle error, set state accordingly
-        this.setState({ loading: false, error: error.message });
-      }
+      let nextPage = this.state.page + 1;
+      await this.fetchNewsApi(nextPage, nextPage);
     }
-  }
-      
+  };
 
-  render(){
+  render() {
     return (
-      <div style={{ color: "#FCE8FF" }}>
+      <div style={{ color: "#FCE8FF", minHeight: "100vh" }}>
         <h1 className="my-3">Hacker News-Top Headlines</h1>
+        {this.state.loading && <Spinner />}
         <Grid
           container
           rowSpacing={5}
-          columnSpacing={{ xs: 5, sm: 6, md: 7 }}
-          style={{ padding: "30px" }}
+          columnSpacing={{ xs: 2, sm: 3, md: 4, lg:5, xl:6 }}
+          // style={{ padding: "30px" }}
         >
-          {this.state.article.map((elem) => {
-            console.log(elem);
-            return (
-              <Grid item xs={4} key={elem.url}>
-                <NewsItem
-                  title={elem.title ? elem.title.slice(0, 45) + "..." : ""}
-                  description={
-                    elem.description
-                      ? elem.description.slice(0, 88) + "..."
-                      : ""
-                  }
-                  imageUrl={
-                    elem.urlToImage
-                      ? elem.urlToImage
-                      : "https://www.teslarati.com/wp-content/uploads/2023/12/tesla-cybertruck-7.jpg"
-                  }
-                  newsUrl={elem.url}
-                />
-              </Grid>
-            );
-          })}
+          {!this.state.loading &&
+            this.state.article.map((elem) => {
+              console.log(elem);
+              return (
+                <Grid
+                  item
+                  xs={12}
+                  sm={12}
+                  md={7}
+                  lg={4}
+                  xl={4}
+                  key={elem.url}
+                  alignItems="center"
+                  justify="center"
+                  style={{ maxWidth: "350px" }}
+                >
+                  <NewsItem
+                    title={elem.title ? elem.title.slice(0, 45) + "..." : ""}
+                    description={
+                      elem.description
+                        ? elem.description.slice(0, 88) + "..."
+                        : ""
+                    }
+                    imageUrl={
+                      elem.urlToImage
+                        ? elem.urlToImage
+                        : "https://www.teslarati.com/wp-content/uploads/2023/12/tesla-cybertruck-7.jpg"
+                    }
+                    newsUrl={elem.url}
+                  />
+                </Grid>
+              );
+            })}
         </Grid>
 
         <Grid

@@ -46,7 +46,7 @@ export default class App extends Component {
           <NavBar />
           <Container>
             <Box>
-              <News />
+              <News pageSize={21} catagory="science" />
             </Box>
           </Container>
         </ThemeProvider>

@@ -30,7 +30,9 @@ export class NewsItem extends Component {
           onClick={() => this.handleOnClick(newsUrl)}
         >
           <CardMedia
-            sx={{ height: 140 }}
+            // sx={{ height: 140 }}
+            xl={{width: 600}}
+            lg={{width: 500}}
             image={imageUrl}
             title={title}
             component="img"

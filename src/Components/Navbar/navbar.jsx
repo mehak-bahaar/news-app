@@ -2,9 +2,18 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 export class NavBar extends Component {
-  static propTypes = {
+  hoverStyling = {
+    cursor: "pointer",
+    transition: "scale 1s ease-in-out, color 1s ease-in-out",
+    "&:hover": {
+      transform: "scale(1.05)",
+      color: "#f2f2f2",
+    },
+    "&.focus": {
+      transform: "scale(0.95)", // Adjust the scale value as needed
+    },
+  };
 
-  }
 
   render() {
     return (
@@ -34,21 +43,83 @@ export class NavBar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon light"></span>
             </button>
             <div
-              className="collapse navbar-collapse"
+              className="collapse navbar-collapse text-light"
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active text-light" aria-current="page" href="/">
+                <li className="nav-item" style={this.hoverStyling}>
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active text-light" aria-current="page" href="/">
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
                     About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
+                    Business
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
+                    Health
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
+                    Entertainment
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
+                    Sports
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
+                    Technology
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-light"
+                    aria-current="page"
+                    href="/"
+                  >
+                    Science
                   </a>
                 </li>
               </ul>

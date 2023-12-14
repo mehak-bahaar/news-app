@@ -1,66 +1,166 @@
 {
   "status": "ok",
-  "totalResults": 33,
+  "totalResults": 70,
   "articles": [
     {
-      "source": { "id": "cnn", "name": "CNN" },
-      "author": "Hannah Rabinowitz, Devan Cole",
-      "title": "Special counsel goes directly to Supreme Court to resolve whether Trump has immunity from prosecution - CNN",
-      "description": "Special counsel Jack Smith on Monday asked the Supreme Court to decide whether Donald Trump has any immunity from criminal prosecution for alleged crimes he committed while in office – the first time that the high court will weigh in on the historic prosecuti…",
-      "url": "https://www.cnn.com/2023/12/11/politics/special-counsel-trump-jack-smith/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/untitled-2-20231205183308426.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2023-12-11T18:10:00Z",
-      "content": "Special counsel Jack Smith on Monday asked the Supreme Court to decide whether Donald Trump has any immunity from criminal prosecution for alleged crimes he committed while in office the first time t… [+3924 chars]"
+      "source": { "id": null, "name": "Teslarati" },
+      "author": "Joey Klender",
+      "title": "Tesla Cybertruck crash test rating situation revealed by NHTSA, IIHS - TESLARATI",
+      "description": "The Tesla Cybertruck has an interesting situation with NHTSA and IIHS crash safety rating testing.",
+      "url": "https://www.teslarati.com/tesla-cybertruck-crash-testing-situation-nhtsa-iihs/",
+      "urlToImage": "https://www.teslarati.com/wp-content/uploads/2023/12/tesla-cybertruck-7.jpg",
+      "publishedAt": "2023-12-11T19:49:01Z",
+      "content": "Tesla performed its in-house crash testing of the Cybertruck, and because it was in compliance with Federal Motor Vehicle Safety Standards, the car can be delivered to customers. However, it does not… [+3857 chars]"
     },
     {
-      "source": { "id": "the-verge", "name": "The Verge" },
-      "author": "Chris Welch",
-      "title": "Beeper's iMessage app for Android is back — but it's a downgrade - The Verge",
-      "description": "Beeper Mini, the iMessage app for Android that debuted in early December, is working again after Apple quickly managed to block the app from sending blue bubbles.",
-      "url": "https://www.theverge.com/2023/12/11/23997097/beeper-mini-android-imessage-app-working-again",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/WiNDUPSvHyQoFLGuS9oi-6yE8go=/0x0:2222x1346/1200x628/filters:focal(1111x673:1112x674)/cdn.vox-cdn.com/uploads/chorus_asset/file/25152710/Screenshot_2023_12_11_at_12.55.27_PM.png",
-      "publishedAt": "2023-12-11T18:09:57Z",
-      "content": "Beepers iMessage app for Android is back  but its a downgrade\r\nBeepers iMessage app for Android is back  but its a downgrade\r\n / Beeper Mini is working again, but youll need to be okay with sending b… [+2385 chars]"
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Michael Wayland",
+      "title": "UAW files unfair labor practice charges against Hyundai, Honda and VW, accusing them of union busting - CNBC",
+      "description": "The UAW has filed unfair labor practice charges with the National Labor Relations Board against Honda, Hyundai and Volkswagen, the union said Monday.",
+      "url": "https://www.cnbc.com/2023/12/11/uaw-files-unfair-labor-practice-charges-against-hyundai-honda-vw.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107313035-1696621085725-Fain.JPG?v=1698143864&w=1920&h=1080",
+      "publishedAt": "2023-12-11T19:35:23Z",
+      "content": "DETROIT The United Auto Workers has filed unfair labor practice charges with the National Labor Relations Board against Honda Motor,Hyundai Motor and Volkswagen, accusing the automakers of unlawfully… [+2430 chars]"
     },
     {
-      "source": { "id": "cnn", "name": "CNN" },
-      "author": "By <a href=\"/profiles/tara-subramaniam\">Tara Subramaniam</a>, Christian Edwards, <a href=\"/profiles/aditi-sandal\">Aditi Sangal</a>, <a href=\"/profiles/elise-hammond\">Elise Hammond</a> and <a href=\"/profiles/maureen-chowdhury\">Maureen Chowdhury</a>, CNN",
-      "title": "Humanitarian crisis worsens in Gaza as Israel-Hamas war intensifies: Live updates - CNN",
-      "description": "Israel's military said it struck more than 250 Hamas targets as battles rage across Gaza, including in the southern city of Khan Younis, where the IDF has ordered residents to evacuate to a coastal area with few facilities. Follow for live updates.",
-      "url": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/231210131054-khan-younis-gaza-12-10-2023-super-tease.jpg",
-      "publishedAt": "2023-12-11T18:05:00Z",
-      "content": "Qatar will continue to make payments to Gaza to support the enclave, as it has been doing for years, the Qatari minister of state for foreign affairs told CNNs Becky Anderson on Monday.\r\nWe're not go… [+2133 chars]"
+      "source": { "id": null, "name": "Yahoo Entertainment" },
+      "author": "Hamza Shaban",
+      "title": "Stock market news today: Stocks tick higher with CPI data, Fed on the horizon - Yahoo Finance",
+      "description": "Investors are counting down to key consumer inflation data and the Fed's last policy decision of the year.",
+      "url": "https://finance.yahoo.com/news/stock-market-news-today-stocks-close-higher-with-cpi-data-fed-on-the-horizon-210040241.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/n11irqwuxGGsWzCT4Wq.VA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-11/432093b0-903c-11ee-bf7b-b9222bbd2d41",
+      "publishedAt": "2023-12-11T19:29:16Z",
+      "content": "JPMorgan (JPM) is warning investors of a \"catch-22 situation\" for US markets next year.\r\nAccording to strategist Marko Kolanovic, a market rally will be unsustainable if the Federal Reserve does not … [+1532 chars]"
     },
     {
-      "source": { "id": "cnn", "name": "CNN" },
-      "author": "Eva Rothenberg",
-      "title": "Harvard President Claudine Gay’s fate hangs in the balance after university’s board meeting - CNN",
-      "description": "Harvard President Claudine Gay remains at the helm after the school’s board of directors met Sunday amid calls for her removal for failing to effectively denounce threats of violence against Jewish students on campus.",
-      "url": "https://www.cnn.com/2023/12/11/business/antisemitism-harvard-president-testimony-meeting/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231210164656-claudine-gay-120523.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2023-12-11T17:42:00Z",
-      "content": "The Executive Committee of Harvard Universitys Alumni Association on Monday announced their unreserved support for President Claudine Gay.\r\nGay also received strong support from the Harvard community… [+9394 chars]"
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Kevin Breuninger",
+      "title": "Bernie Madoff victims get $159 million from Ponzi recovery fund in latest payout - CNBC",
+      "description": "The announcement laid bare the impact of Madoff's nearly $65 billion scam 15 years after his arrest — and more than two years after his death in prison.",
+      "url": "https://www.cnbc.com/2023/12/11/bernie-madoff-victims-get-159-million-from-ponzi-recovery-fund.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106868977-1618503920670-gettyimages-1232305999-MADOFF_OBIT.jpeg?v=1702314996&w=1920&h=1080",
+      "publishedAt": "2023-12-11T19:20:32Z",
+      "content": "The fund for victims of Bernie Madoff's historic Ponzi scheme has begun its ninth payout, distributing about $159 million in government-seized funds to nearly 25,000 people worldwide, the Department … [+1819 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Bitcoin Magazine" },
+      "author": "Bitcoin Magazine",
+      "title": "US Senator Elizabeth Warren Introduces Bill To \"Crack Down\" on Bitcoin And Crypto - Bitcoin Magazine",
+      "description": null,
+      "url": "https://bitcoinmagazine.com/markets/us-senator-elizabeth-warren-introduces-bill-to-crack-down-on-bitcoin-and-crypto",
+      "urlToImage": null,
+      "publishedAt": "2023-12-11T19:02:54Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "WOODTV.com" },
+      "author": "Madalyn Buursma",
+      "title": "Report: Chapter 11 bankruptcy filed by Woodland Mall parent company - WOODTV.com",
+      "description": "The parent company of Woodland Mall has filed for Chapter 11 bankruptcy, Crain’s reports.",
+      "url": "https://www.woodtv.com/news/kent-county/report-chapter-11-bankruptcy-filed-by-woodland-mall-parent-company/",
+      "urlToImage": "https://www.woodtv.com/wp-content/uploads/sites/51/2020/05/Woodland-Mall-1-generic.jpg?w=1280",
+      "publishedAt": "2023-12-11T19:00:23Z",
+      "content": "KENTWOOD, Mich. (WOOD) The parent company of Woodland Mall has filed for Chapter 11 bankruptcy, Crain’s reports.\r\nPennsylvania Real Estate Investment Trust made the filing on Sunday, News 8 partner C… [+578 chars]"
+    },
+    {
+      "source": { "id": "fox-news", "name": "Fox News" },
+      "author": "Jeffrey Clark",
+      "title": "Voters are 'feeling horrible' about Biden economy, confusing some political experts - Fox News",
+      "description": "Some political experts are confused as voters voice serious anxiety about the economy ahead of the 2024 presidential election, according to a new report.",
+      "url": "https://www.foxnews.com/media/voters-feeling-horrible-biden-economy-confusing-some-political-experts",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/08/trump-biden-split.jpg",
+      "publishedAt": "2023-12-11T19:00:00Z",
+      "content": "Voters are \"feeling horrible\" about the economy under President Biden as the 2024 presidential election nears, confusing some experts, according to a new report.\r\n\"Things are getting better and peopl… [+3235 chars]"
+    },
+    {
+      "source": { "id": "business-insider", "name": "Business Insider" },
+      "author": "Jordan Hart",
+      "title": "UPS Driver Goes Viral for $2K Pre-Tax Weekly Pay Stub - Business Insider",
+      "description": "The UPS driver's viral post showing the $44 an hour pay rate shocked thousands who were unaware they made less than some UPS drivers.",
+      "url": "https://www.businessinsider.com/ups-driver-tiktok-weekly-pay-stub-2023-12",
+      "urlToImage": "https://i.insider.com/65772f4a0ec98e92f74e1629?width=1200&format=jpeg",
+      "publishedAt": "2023-12-11T18:55:00Z",
+      "content": "Thousands of people are saying they might've chosen the wrong profession after seeing how much a UPS driver makes in a week.\r\nSkyler Stutzman, an Oregon-based UPS delivery driver who posts to TikTok,… [+2325 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Fox Business" },
+      "author": "Aislinn Murphy",
+      "title": "Over 115M people expected to travel during holidays, airport totals to break records: AAA - Fox Business",
+      "description": "AAA predicted Monday that some 115.2 million Americans will travel over the winter holidays, including 7.5 million by plane and almost 104 million by car.",
+      "url": "https://www.foxbusiness.com/lifestyle/over-115-million-people-expected-travel-during-holidays-airport-totals-break-records-aaa",
+      "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/12/0/0/2023-travel-5.jpg?ve=1&tl=1",
+      "publishedAt": "2023-12-11T18:43:00Z",
+      "content": "The number of Americans traveling during the year-end holiday travel period this year will reach the second-highest level in more than two decades, according to AAA.\r\nThe organization predicted on Mo… [+2820 chars]"
     },
     {
       "source": { "id": "reuters", "name": "Reuters" },
-      "author": "Mark Trevelyan",
-      "title": "Navalny's team says he has vanished in Russia's prison system - Reuters",
-      "description": "Russian opposition politician Alexei Navalny has been removed from the penal colony where he had been imprisoned since the middle of last year and his current whereabouts are unknown, his allies said on Monday.",
-      "url": "https://www.reuters.com/world/europe/russias-navalny-removed-prison-colony-whereabouts-unclear-supporters-2023-12-11/",
-      "urlToImage": "https://www.reuters.com/resizer/zp2LDpgOSgygYC9_s4k-Do1mXZ8=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/LCHJM6XYQNORDP3JSRRUKETSSU.jpg",
-      "publishedAt": "2023-12-11T17:17:00Z",
-      "content": "LONDON, Dec 11 (Reuters) - Russian opposition politician Alexei Navalny has been removed from the penal colony where he had been imprisoned since the middle of last year and his current whereabouts a… [+4299 chars]"
+      "author": "Reuters",
+      "title": "Cigna abandons pursuit of Humana, plans $10 billion share buyback - Reuters",
+      "description": null,
+      "url": "https://www.reuters.com/markets/deals/us-health-insurer-cigna-scraps-deal-buy-humana-wsj-2023-12-10/",
+      "urlToImage": null,
+      "publishedAt": "2023-12-11T18:23:59Z",
+      "content": null
     },
     {
-      "source": { "id": null, "name": "CBS Sports" },
-      "author": "",
-      "title": "Brittany Mahomes takes a shot at NFL referee after controversial Chiefs call - CBS Sports",
-      "description": "Patrick Mahomes' wife posted a video of a referee with the caption \"MVP\" after Sunday's loss",
-      "url": "https://www.cbssports.com/nfl/news/brittany-mahomes-takes-a-shot-at-nfl-referee-after-controversial-chiefs-call/",
-      "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/12/11/511a5532-1a3d-4ab4-8069-e1373b9f3c8b/thumbnail/1200x675/b1ba16a286ee974113daa232bf93112e/brittany-mahomes-getty.jpg",
-      "publishedAt": "2023-12-11T17:14:03Z",
-      "content": "The Kansas City Chiefs came out on the losing end against the Buffalo Bills on Sunday in controversial fashion. Following Sunday's contest, Patrick Mahomes' wife, Brittany Mahomes, weighed in on the … [+1351 chars]"
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Sarah Min",
+      "title": "Stocks making biggest moves midday: Macy's, Cigna, Eli Lilly and more - CNBC",
+      "description": "These are the stocks posting the largest moves in midday trading.",
+      "url": "https://www.cnbc.com/2023/12/11/stocks-making-the-biggest-moves-midday-macys-cigna-group-eli-lilly-paramount-and-more.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107289967-1692705587025-gettyimages-1630401354-macysnewyork0007.jpeg?v=1702318928&w=1920&h=1080",
+      "publishedAt": "2023-12-11T18:11:04Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "MarketWatch" },
+      "author": "Isabel Wang",
+      "title": "Betting grows that S&P 500 will hit record high, with Oppenheimer joining Wall Street’s bullish calls for 2024 - MarketWatch",
+      "description": "Oppenheimer’s John Stoltzfus sees S&P 500 rising to 5,200 by end of 2024",
+      "url": "https://www.marketwatch.com/story/betting-grows-that-s-p-500-will-hit-record-high-with-oppenheimer-joining-wall-streets-bullish-calls-for-2024-49069445",
+      "urlToImage": "https://images.mktw.net/im-11228250/social",
+      "publishedAt": "2023-12-11T18:06:00Z",
+      "content": "The S&amp;P 500 index is set to rally to 5,200 by the end of 2024, implying a nearly 13% gain from its current level, according to strategists at Oppenheimer Asset Management, who join a rush of Wall… [+3355 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Seattle Times" },
+      "author": "Dominic Gates",
+      "title": "Boeing appoints Stephanie Pope COO, positioning her as likely next CEO - The Seattle Times",
+      "description": "With Boeing CEO Dave Calhoun likely to retire in a year or two, Pope's now in line to become Boeing's first woman CEO.",
+      "url": "https://www.seattletimes.com/business/boeing-aerospace/boeing-appoints-stephanie-pope-coo-positioning-her-as-likely-next-ceo/",
+      "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2023/12/12112023_Boeing-Pope_tzr_093403.jpg?d=1200x630",
+      "publishedAt": "2023-12-11T17:38:02Z",
+      "content": "Boeing on Monday announced the appointment of Stephanie Pope as chief operating officer. With Boeing CEO Dave Calhoun, 66, likely to retire in a year or two, she’s now in line to become Boeing’s firs… [+2587 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Curtis Williams, Seher Dareen",
+      "title": "LNG developer Tellurian names new president as shakeup continues - Reuters",
+      "description": "Tellurian <a href=\"https://www.reuters.com/markets/companies/TELL.A\" target=\"_blank\">(TELL.A)</a> said on Monday it appointed a new president and general counsel, days after the U.S. liquefied natural gas (LNG) developer ousted co-founder Charif Souki as chai…",
+      "url": "https://www.reuters.com/business/energy/tellurian-appoints-daniel-belhumeur-president-new-chair-takes-charge-2023-12-11/",
+      "urlToImage": "https://www.reuters.com/resizer/j9tkMlGw6fvFK_c_lDYlNxmrjs0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/S3RAUEC42FP7BOMLX6CPZJBRLU.jpg",
+      "publishedAt": "2023-12-11T17:30:00Z",
+      "content": "HOUSTON, Dec 11 (Reuters) - Tellurian (TELL.A) said on Monday it appointed a new president and general counsel, days after the U.S. liquefied natural gas (LNG) developer ousted co-founder Charif Souk… [+2156 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Reuters",
+      "title": "Weight loss from Lilly's Zepbound reversed after stopping treatment, study shows - Reuters",
+      "description": "Patients on Eli Lilly's <a href=\"https://www.reuters.com/markets/companies/LLY.N\" target=\"_blank\">(LLY.N)</a> weight-loss drug Zepbound substantially regained weight nearly a year after stopping treatment, according to full results of a study published on Mon…",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/patients-eli-lillys-drug-regain-weight-after-stopping-treatment-jama-study-2023-12-11/",
+      "urlToImage": "https://www.reuters.com/resizer/p9UY0ulu60U-GX8HXN7i1Sti69A=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/SM4NXZJ3KNLUVFGCLYVI3X4SGU.jpg",
+      "publishedAt": "2023-12-11T17:25:00Z",
+      "content": "Dec 11 (Reuters) - Patients on Eli Lilly's (LLY.N) weight-loss drug Zepbound substantially regained weight nearly a year after stopping treatment, according to full results of a study published on Mo… [+1785 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Electrek" },
+      "author": "Peter Johnson",
+      "title": "Lucid (LCID) is getting booted from the Nasdaq 100 stock index - Electrek.co",
+      "description": "EV maker Lucid (LCID) is set to lose its spot in the Nasdaq 100 index at the end of the...",
+      "url": "https://electrek.co/2023/12/11/lucid-lcid-nasdaq-100-stock-index/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2023/12/Lucid-nasdaq-100-stock-1.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-12-11T17:24:00Z",
+      "content": "EV maker Lucid (LCID) is set to lose its spot in the Nasdaq 100 index at the end of the week as the companys stock faces more pressure.\r\nThe news comes as part of the Nasdaq 100s annual changes, effe… [+2819 chars]"
     },
     {
       "source": { "id": "reuters", "name": "Reuters" },
@@ -73,134 +173,34 @@
       "content": null
     },
     {
-      "source": { "id": null, "name": "YouTube" },
-      "author": null,
-      "title": "Stephen A. & Shannon Sharpe call Bronny James’ debut AMAZING ❤️ | First Take - ESPN",
-      "description": "On First Take, Shannon Sharpe and Stephen A. Smith talk about how happy they are to see Bronny James making his USC debut with LeBron in attendance.#ESPN #Fi...",
-      "url": "https://www.youtube.com/watch?v=3KKw1yxIwds",
-      "urlToImage": "https://i.ytimg.com/vi/3KKw1yxIwds/hqdefault.jpg",
-      "publishedAt": "2023-12-11T16:34:08Z",
-      "content": null
+      "source": { "id": "financial-times", "name": "Financial Times" },
+      "author": "Jamie Smyth, Myles McCormick, James Fontanella-Khan",
+      "title": "Occidental Petroleum agrees $12bn deal to acquire CrownRock - Financial Times",
+      "description": "Warren Buffett-backed group beats rivals in race for sought-after private oil producer",
+      "url": "https://www.ft.com/content/22b08a2b-1f77-4f8b-9464-53f7394c4edb",
+      "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252Fb2b0f3fb-561c-4524-98e4-455658272364.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900",
+      "publishedAt": "2023-12-11T16:57:20Z",
+      "content": "Occidental Petroleum has agreed to acquire CrownRock, one of the most sought-after US private shale oil producers, in a deal valued at about $12bn, including debt.\r\nThe Houston-based company backed b… [+3094 chars]"
     },
     {
-      "source": { "id": null, "name": "WMUR Manchester" },
-      "author": "KC Downey",
-      "title": "Dover, New Hampshire man accused of threatening Vivek Ramaswamy - WMUR Manchester",
-      "description": "A New Hampshire man accused of threatening to kill a presidential candidate has been arrested, investigators said.",
-      "url": "https://www.wmur.com/article/dover-new-hampshire-vivek-ramaswamy-threat-1211/46093240",
-      "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/candidate-threat-12-11-0124-657738c8314ae.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
-      "publishedAt": "2023-12-11T16:29:00Z",
-      "content": "MANCHESTER, N.H. —A New Hampshire man accused of threatening to kill Republican presidential candidate Vivek Ramswamy has been arrested, investigators said.\r\nAccording to the U.S. attorney's office f… [+1484 chars]"
+      "source": { "id": "business-insider", "name": "Business Insider" },
+      "author": "Matthew Fox",
+      "title": "Interest rate outlook: Here's how many rate cuts Wall Street expects - Business Insider",
+      "description": "Interest rates are an important driver of the US economy and the stock market, and the potential for cuts could mean lower mortgage rates next year.",
+      "url": "https://www.businessinsider.com/interest-rates-2024-outlook-rate-cut-predictions-wall-street-stocks-2023-12",
+      "urlToImage": "https://i.insider.com/64c11b3f671ed60019156717?width=1200&format=jpeg",
+      "publishedAt": "2023-12-11T16:48:00Z",
+      "content": "<ul><li>After an aggressive rate-hiking cycle that lasted nearly two years, the Fed is expected to start cutting rates in 2024.</li><li>Moderating inflation and a resilient economy suggests the Fed c… [+5651 chars]"
     },
     {
-      "source": { "id": null, "name": "NDTV News" },
-      "author": null,
-      "title": "One Of The Brightest Stars To Disappear In \"Once In A Lifetime\" Event - NDTV",
-      "description": "The star has become prominent for its \"fluctuating brightness\". Several scientists have also raised concerns that it could explode soon.",
-      "url": "https://www.ndtv.com/world-news/one-of-the-brightest-stars-to-disappear-in-once-in-a-lifetime-event-4655404",
-      "urlToImage": "https://c.ndtvimg.com/2023-12/ju1m5m6g_esa_625x300_11_December_23.jpg",
-      "publishedAt": "2023-12-11T16:20:54Z",
-      "content": "Betelgeuse will nearly disappear for a duration of 7 to 12 seconds.\r\nAstronomers predict there will be a historic \"once-in-a-lifetime\" event that will cause Betelgeuse, one of the brightest and bigge… [+2904 chars]"
-    },
-    {
-      "source": { "id": "the-washington-post", "name": "The Washington Post" },
-      "author": "Amudalat Ajasa",
-      "title": "What to know about the Geminids, the best meteor show of the year - The Washington Post",
-      "description": "The Geminids meteor shower peaks in 2023 on the evening of Dec. 13 into Dec. 14 and can be seen for more than a week after that. Here’s what makes it so special.",
-      "url": "https://www.washingtonpost.com/weather/2023/12/11/geminids-meteor-shower-watch/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3AQMM7HNVTIF24YOG6U6MXOWPE.jpg&w=1440",
-      "publishedAt": "2023-12-11T16:15:19Z",
-      "content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nSnowflakes wont be the only tiny particles brushing through the night sky in mid-December. Falling ice crystals will be accompanied by… [+4605 chars]"
-    },
-    {
-      "source": { "id": "cnn", "name": "CNN" },
-      "author": "Jackie Wattles",
-      "title": "SpaceX set to launch mysterious X-37B space plane for US military - CNN",
-      "description": "The X-37B space plane is one of the US military’s most intriguing and secretive projects. The spacecraft will hitch a ride on SpaceX’s Falcon Heavy rocket on Monday.",
-      "url": "https://www.cnn.com/2023/12/11/world/spacex-falcon-heavy-x37b-space-plane-scn/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/141013134820-06-air-force-x-37b.jpg?q=x_0,y_0,h_1128,w_2005,c_fill/w_800",
-      "publishedAt": "2023-12-11T16:07:00Z",
-      "content": "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more.\r\nA SpaceX Falcon Heavy rocket is set to launch Monday e… [+3732 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Deadline" },
-      "author": "Pete Hammond",
-      "title": "Golden Globes Film Nominations Analysis: As ‘Barbenheimer’ Crushes The Field, Summer Blockbusters Take Triumphs To Awards Season - Deadline",
-      "description": "Was the Oscar race defined all the way back in July? This morning’s predictable Golden Globe nominations provided few surprises as far as the motion pictures contenders go but also give crede…",
-      "url": "https://deadline.com/2023/12/golden-globes-analysis-film-barbenheimer-crushes-field-barbie-oppenheimer-1235661459/",
-      "urlToImage": "https://deadline.com/wp-content/uploads/2023/07/barbie-oppenheimer-2.jpg?w=1024",
-      "publishedAt": "2023-12-11T16:06:00Z",
-      "content": "Was the Oscar race defined all the way back in July?\r\nThis morning’s predictable Golden Globe nominations provided few surprises as far as the motion pictures contenders go but also give credence to … [+6328 chars]"
-    },
-    {
-      "source": { "id": null, "name": "[Removed]" },
-      "author": null,
-      "title": "[Removed]",
-      "description": "[Removed]",
-      "url": "https://removed.com",
-      "urlToImage": null,
-      "publishedAt": "1970-01-01T00:00:00Z",
-      "content": "[Removed]"
-    },
-    {
-      "source": { "id": null, "name": "NBCSports.com" },
-      "author": "Mike Florio",
-      "title": "Joe Flacco will play football for as long as he can - NBC Sports",
-      "description": "Former Super Bowl MVP's love for the game, support from his family keeps him going.",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-flacco-will-play-football-for-as-long-as-he-can",
-      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/7ac45d4/2147483647/strip/true/crop/1920x1080+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fhdliveextra-a.akamaihd.net%2FHD%2Fimage_sports%2FNBCU_Sports_Group_-_nbcsports%2F768%2F51%2Fnbc_simms_jaguarsvsbrowns_231210.jpg",
-      "publishedAt": "2023-12-11T15:39:51Z",
-      "content": "Browns quarterback Joe Flacco will be, as of Monday, a free agent. Hell revert to the practice squad, and any team will be eligible to sign him to the active roster.\r\nThe Browns presumably will offer… [+2412 chars]"
-    },
-    {
-      "source": { "id": "cbs-news", "name": "CBS News" },
-      "author": "Eleanor Watson",
-      "title": "Air Force watchdog finds alleged Pentagon leaker Jack Teixeira's unit \"failed\" to take action after witnessing questionable activity - CBS News",
-      "description": "The Air National Guard has taken action against 15 people \"for dereliction in the performance of duties\" in the wake of intelligence leaks that began as early as February 2022.",
-      "url": "https://www.cbsnews.com/news/air-force-pentagon-leaker-jack-teixeira-investigation-report/",
-      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/06/21/b379fe95-d66b-48be-b55f-a2a9eec35c2e/thumbnail/1200x630/1018bedb493bb50073437ea56672f779/cnn-l19jb21wb25lbnrzl2ltywdll2luc3rhbmnlcy9jbg9uzs10ahvtym5hawwtyjzhywnintnjm2u4ztc3mjmynwyxmwizmduzotrjmdg-l19wywdlcy9oxzm2zwm3ngezzjm4mtazzgzmyjgwndhhmwnizmrkmjjh.jpg?v=170b469460f9b5b4a2670b02bb591e2d",
-      "publishedAt": "2023-12-11T15:27:00Z",
-      "content": "The Air Force inspector general found that individuals in alleged Pentagon leaker Jack Teixeira's unit failed to take proper action after at least four separate security incidents. The investigation … [+3169 chars]"
-    },
-    {
-      "source": { "id": null, "name": "MacRumors" },
-      "author": "Hartley Charlton",
-      "title": "Here's What the iPad Lineup Could Look Like in 2024 - MacRumors",
-      "description": "With no new iPad models launched this year, Apple ostensibly has some significant changes in store for its tablet lineup and accessories in 2024. ...",
-      "url": "https://www.macrumors.com/2023/12/11/what-the-2024-ipad-lineup-could-look-like/",
-      "urlToImage": "https://images.macrumors.com/t/oC2S2cVA1-S0BEL_BL3Qv8s7oYk=/2500x/article-new/2023/10/M3-iPad-Feature-3.jpg",
-      "publishedAt": "2023-12-11T15:11:46Z",
-      "content": "With no new iPad models launched this year, Apple ostensibly has some significant changes in store for its tablet lineup and accessories in 2024.\r\nThe entry-level ‌iPad‌, iPad mini, iPad Air, and iPa… [+2925 chars]"
-    },
-    {
-      "source": { "id": null, "name": "CNBC" },
-      "author": "Hugh Son",
-      "title": "Regulators caught Wells Fargo, other banks in probe over mortgage pricing discrimination - CNBC",
-      "description": "Wells Fargo, until recently the biggest player in U.S. mortgages, has repeatedly felt regulators' wrath over missteps involving home loans.",
-      "url": "https://www.cnbc.com/2023/12/11/wells-fargo-mortgage-lenders-probed-over-racial-discrimination.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107176819-1673384750705-gettyimages-1455569528-wellsfargoagreedwouldpaytosettlewithausconsumerfinancewatc.jpeg?v=1702141782&w=1920&h=1080",
-      "publishedAt": "2023-12-11T15:00:01Z",
-      "content": "People pass by a Wells Fargo bank on May 17, 2023 in New York City.\r\nWells Fargo was snared in an industrywide probe into mortgage bankers' use of loan discounts last year, CNBC has learned.\r\nThe dis… [+6074 chars]"
-    },
-    {
-      "source": { "id": null, "name": "KTLA Los Angeles" },
-      "author": "Rich DeMuro",
-      "title": "Check out these useful and fun tech gifts ideas - KTLA Los Angeles",
-      "description": "I test gadgets for a living and I see a lot of them. Not all of them are worth a recommendation, but these gadgets make the nice list! They deliver on fun, usefulness or a combination of both. Follow Tech Reporter Rich DeMuro on Instagram for gadgets, tech ti…",
-      "url": "https://ktla.com/news/technology/check-out-these-useful-and-fun-tech-gifts-ideas/",
-      "urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2023/12/2275f193-f685-471a-8008-f2f12813164b.jpg",
-      "publishedAt": "2023-12-11T14:23:57Z",
-      "content": "I test gadgets for a living and I see a lot of them.\r\nNot all of them are worth a recommendation, but these gadgets make the nice list!\r\nThey deliver on fun, usefulness or a combination of both.\r\nFol… [+2920 chars]"
-    },
-    {
-      "source": { "id": null, "name": "CNBC" },
-      "author": "Jeff Marks",
-      "title": "The top 10 things to watch in the stock market Monday - CNBC",
-      "description": "U.S. stocks are muted Monday following last week's push to a new 52-week high, while Cigna abandons its pursuit of Humana.",
-      "url": "https://www.cnbc.com/2023/12/11/the-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107280605-1690984357528-gettyimages-1569285206-HUMANA_EARNS.jpeg?v=1702304464&w=1920&h=1080",
-      "publishedAt": "2023-12-11T14:21:25Z",
-      "content": "1. U.S. stocks are muted Monday following last week's push to a new 52-week high in the S&amp;P 500, helped by a stronger-than-expected jobs report Friday. Good economic news is good news for the sto… [+3690 chars]"
+      "source": { "id": null, "name": "CoinDesk" },
+      "author": "Krisztian  Sandor",
+      "title": "Coinbase, MicroStrategy, Marathon Stocks Buckle 5%-10% as Bitcoin Tumbles Below $42K - CoinDesk",
+      "description": "A \"flash crash\" in thin trading Sunday evening, saw bitcoin's price plunge nearly 10% from the $44,000 level in the space of a few minutes.",
+      "url": "https://www.coindesk.com/markets/2023/12/11/coinbase-microstrategy-marathon-stocks-buckle-5-10-as-bitcoin-tumbles-below-42k/",
+      "urlToImage": "https://www.coindesk.com/resizer/0SadTSPBQDHC0nydQl00UNphqTc=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/V4OZRLYPNFGH3GNQ7ZJCHGOR5U.jpg",
+      "publishedAt": "2023-12-11T16:46:00Z",
+      "content": "Please note that ourprivacy policy,terms of use,cookies, anddo not sell my personal informationhas been updated.\r\nThe leader in news and information on cryptocurrency, digital assets and the future o… [+652 chars]"
     }
   ]
 }
