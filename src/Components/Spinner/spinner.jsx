@@ -12,7 +12,7 @@ export class Spinner extends Component {
       justifyContent:'center',
       padding:'10px',
       position:'fixed',
-      height:'100vh',
+      height:'100%',
       width:'100%'
       }}>
         <i className="fa-solid fa-spinner fa-spin-pulse fa-2xl"></i>

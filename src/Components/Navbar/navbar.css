@@ -1,0 +1,14 @@
+.hoverClass {
+    cursor: pointer;
+    transition: scale 1s ease-in-out;
+}
+.hoverClass:hover{
+          transform: scale(1.05);
+      opacity: .4;
+}
+.hoverClass.focus{
+    transform: scale(0.95);
+}
+.navbar-toggler-icon-light{
+     filter: invert(80%) sepia(23%) saturate(228%) hue-rotate(201deg) brightness(91%) contrast(92%);
+}

@@ -1,18 +1,10 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom';
+import "./navbar.css"
+
 
 export class NavBar extends Component {
-  hoverStyling = {
-    cursor: "pointer",
-    transition: "scale 1s ease-in-out, color 1s ease-in-out",
-    "&:hover": {
-      transform: "scale(1.05)",
-      color: "#f2f2f2",
-    },
-    "&.focus": {
-      transform: "scale(0.95)", // Adjust the scale value as needed
-    },
-  };
+
 
 
   render() {
@@ -24,16 +16,16 @@ export class NavBar extends Component {
         }}
       >
         <nav
-          className="navbar navbar-expand-lg color-custom "
+          className="navbar navbar-expand-lg"
           style={{
             backgroundColor: "#2E2767",
             color: "#FCE8FF",
           }}
         >
           <div className="container-fluid">
-            <a className="navbar-brand text-light" href="#">
+            <Link className="navbar-brand text-light " to="#">
               Hacker News
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -43,84 +35,75 @@ export class NavBar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon light"></span>
+              <span className="navbar-toggler-icon navbar-toggler-icon-light"></span>
             </button>
             <div
               className="collapse navbar-collapse text-light"
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item" style={this.hoverStyling}>
-                  <a
-                    className="nav-link active text-light"
+                <li className="nav-item">
+                  <Link
+                    className="nav-link active text-light hoverClass"
                     aria-current="page"
-                    href="/"
+                    to="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link active text-light"
+                  <Link
+                    className="nav-link active text-light hoverClass"
                     aria-current="page"
-                    href="/"
-                  >
-                    About
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link active text-light"
-                    aria-current="page"
-                    href="/"
+                    to="/business"
                   >
                     Business
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link active text-light"
+                  <Link
+                    className="nav-link active text-light hoverClass"
                     aria-current="page"
-                    href="/"
+                    to="/health"
                   >
                     Health
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link active text-light"
+                  <Link
+                    className="nav-link active text-light hoverClass"
                     aria-current="page"
-                    href="/"
+                    to="/entertainment"
                   >
                     Entertainment
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link active text-light"
+                  <Link
+                    className="nav-link active text-light hoverClass"
                     aria-current="page"
-                    href="/"
+                    to="/sports"
                   >
                     Sports
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link active text-light"
+                  <Link
+                    className="nav-link active text-light hoverClass"
                     aria-current="page"
-                    href="/"
+                    to="/technology"
                   >
                     Technology
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link active text-light"
+                  <Link
+                    className="nav-link active text-light hoverClass"
                     aria-current="page"
-                    href="/"
+                    to="/science"
                   >
                     Science
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

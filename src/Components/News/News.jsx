@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 
 export class News extends Component {
-  static PropTypes = {
+  static propTypes = {
     pageSize: PropTypes.number,
     catagory: PropTypes.string,
   };
@@ -98,6 +98,8 @@ export class News extends Component {
                 >
                   <NewsItem
                     title={elem.title ? elem.title.slice(0, 45) + "..." : ""}
+                    author={elem.author ? elem.author.slice(0, 45) : "Unknown"}
+                    publishedAt={elem.publishedAt ? elem.publishedAt.split("T")[0]: ""}
                     description={
                       elem.description
                         ? elem.description.slice(0, 88) + "..."
